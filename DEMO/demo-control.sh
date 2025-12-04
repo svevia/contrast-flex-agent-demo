@@ -10,7 +10,7 @@ declare -A APPS
 APPS[python]="python-flask:9090:/demos/flask-app:python3 app.py"
 APPS[node]="node-express:3030:/demos/node-app:npm start"
 APPS[netcore]="dotnet-core:8181:/demos/dotnet-app:dotnet run"
-APPS[tomcat]="tomcat-java:8080:.:./apache-tomcat-9.0.95/bin/startup.sh"
+APPS[tomcat]="tomcat-java:8080:/demos/apache-tomcat-9.0.95/bin/startup.sh"
 APPS[drupal]="drupal-php:7070:/demos/drupal-app:bash /demos/drupal-app/start.sh"
 
 # Colors for output
